@@ -23,6 +23,7 @@ double calculateAverage(double sum, int size)//^the sum was already calculated^
 
 void addBonus(int scores[], int size, int bonus)
 {
+    cout << "Scores after +10 bonus: " << endl;
 	for (int i = 0; i < size; i++)//switches though the elements
 	{
 		scores[i] += bonus;//adds the bonus to each score
